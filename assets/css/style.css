@@ -66,6 +66,8 @@
     font-display: swap;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
 .noto {
     font-family: 'GothicA1';
 }
@@ -270,6 +272,8 @@ span.meta {
     padding: 3px 8px;
     border-radius: 4px;
     font-size: 0.75rem;
+    display: flex;
+    align-items: center;
     color: var(--library-text);
 }
 
@@ -278,6 +282,8 @@ span.date {
     padding: 3px 8px;
     border-radius: 4px;
     font-size: 0.75rem;
+    display: flex;
+    align-items: center;
     color: var(--library-text);
 }
 
